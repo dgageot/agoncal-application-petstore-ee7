@@ -1,0 +1,10 @@
+<datasources>
+  <datasource jndi-name="java:/jboss/datasources/PetStore" pool-name="PetStoreDS" enabled="true" use-java-context="true">
+    <connection-url>jdbc:mysql://db:3306/petstore</connection-url>
+    <driver>mysql-connector-java.jar_com.mysql.jdbc.Driver_5_1</driver>
+    <security>
+      <user-name>petstore</user-name>
+      <password>samplepwd</password>
+    </security>
+  </datasource>
+</datasources>
